@@ -18,3 +18,4 @@ To setup initial conditions for the sampler, please check "setup" sections in ma
 This package also uses a slightly modified version of nr3.h from Numerical Recipe, which was obtained from:
 http://numerical.recipes/codefile.php?nr3
 
+Use readbest_singT.py to convert p[123]_med.dat to fits file.
