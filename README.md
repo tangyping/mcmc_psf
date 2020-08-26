@@ -1,6 +1,6 @@
 # mcmc_psf
 
-This package requires CFITSIO and CCfits, which are libraries for C and C++ for reading and writing data files in FITS.
+This package requires CFITSIO and CCfits, which are C & C++ libraries for reading and writing data files in FITS.
 
 CFITSIO can be found here:
 https://heasarc.gsfc.nasa.gov/fitsio/
