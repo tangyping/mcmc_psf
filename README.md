@@ -8,10 +8,10 @@ https://heasarc.gsfc.nasa.gov/fitsio/
 CCFITS can be found here:
 https://heasarc.gsfc.nasa.gov/fitsio/CCfits/
 
-Once CFITSIO and CCFITS are installed, change LDFLAGS in Makefile to the location where the libraries are installed, then just type:
+Once CFITSIO and CCFITS are installed, change LDFLAGS in Makefile to the location where the libraries are installed, just type:
 make
 ./main
-to excute the program.
+to compile and excute the program.
 
 To setup initial conditions for the sampler, please check "setup" sections in main.cpp.
 
