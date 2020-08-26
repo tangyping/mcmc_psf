@@ -54,6 +54,7 @@ Model::Model(Img& img, unsigned seed){
   for(int i=0; i<img.nx; i++){
     for(int j=0; j<img.ny; j++){
 
+      //initial conditions///	    
       par_low[0][i][j] =  ran.uniformDeviate(22.0, 23.0); // Column Density
       par_low_gs[0][i][j] = par_low[0][i][j];
       par_low[1][i][j] =  ran.uniformDeviate(log(20.), log(30.)); // Temperature 30
